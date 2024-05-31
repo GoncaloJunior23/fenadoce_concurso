@@ -1,0 +1,20 @@
+meta {
+  name: Inclusão
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/clientes
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Silmara Alves",
+    "email": "silmaraalves@gmail.com",
+    "cidade": "Campo Grande",
+    "datanascimento":"2001-09-21"
+  }
+}
